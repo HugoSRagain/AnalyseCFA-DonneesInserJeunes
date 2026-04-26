@@ -105,6 +105,9 @@ où :
 Les erreurs standards sont robustes à l’hétéroscédasticité (`HC1`).
 
 ---
+## Spécification exploratoire sur l’endogénéité
+
+Une spécification exploratoire en panel dynamique GMM a également été testée afin d’examiner l’endogénéité potentielle du taux de poursuite d’études. Ces estimations sont mises à disposition dans ce dépôt pour des raisons de transparence et de reproductibilité. Elles ne sont toutefois pas retenues dans l’analyse principale de l’article, car les diagnostics économétriques usuels associés à ces modèles (notamment les tests de Hansen et d’autocorrélation d’ordre 2) se révèlent défavorables dans les spécifications considérées. Cette difficulté tient vraisemblablement à la structure courte, déséquilibrée et glissante du panel mobilisé. Les résultats principaux reposent donc sur les spécifications à effets fixes, les robustesses en modèle fractionnaire et la distinction entre CFA historiques et nouveaux CFA.
 
 ## Installation
 
